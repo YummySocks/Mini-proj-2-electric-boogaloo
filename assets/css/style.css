@@ -5,10 +5,19 @@
     --pinkish: #e866ec;
 }
 
+body {
+    background-color: var(--spacey);
+}
+
 h1 {
-    font-size: 200%;
+    font-size: 250%;
     font-weight: bolder;
     padding: 2%;
+    color: var(--pinkish);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 header {
@@ -22,4 +31,15 @@ header {
 header p {
     display: flex;
     align-items: center;
+    color: var(--whiteish);
+    flex-flow: row wrap;
+    padding: 2%;
+    
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap row;
+    margin: 5%;
 }
