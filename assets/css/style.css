@@ -1,0 +1,25 @@
+:root {
+    --spacey: #33393f;
+    --turquoise: #2aefcb;
+    --whiteish: #e0eae4;
+    --pinkish: #e866ec;
+}
+
+h1 {
+    font-size: 200%;
+    font-weight: bolder;
+    padding: 2%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+header p {
+    display: flex;
+    align-items: center;
+}
